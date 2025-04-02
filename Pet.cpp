@@ -59,3 +59,7 @@ void Pet::printInfo() const {
     std::cout << "Age: " << age << std::endl;
     std::cout << "Hunger Level: " << hungerLevel << "/10" << std::endl;
 }
+
+void Pet::makeSound() const {
+    std::cout << name << " makes an undefined noise." << std::endl;
+}
